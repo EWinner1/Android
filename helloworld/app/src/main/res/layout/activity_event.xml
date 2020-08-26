@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btn_event1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内部类"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_event2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="匿名内部类"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_event3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="事件源所在类"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_event4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="外部类"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_event5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick5"
+        android:text="布局文件中的onclick属性"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_event6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="速度/优先级比较"
+        android:textAllCaps="false" />
+
+    <com.example.textview.widget.MyButton
+        android:id="@+id/btn_My"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyButton"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handler"
+        android:textAllCaps="false" />
+
+</LinearLayout>

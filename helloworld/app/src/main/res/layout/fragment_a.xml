@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btn_changetoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更换Fragment"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_Reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更换TestView文字"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_message1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="给activity传递消息1"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_message2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="给activity传递消息2"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv_titleFraga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="I am AFragment"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp" />
+
+</LinearLayout>

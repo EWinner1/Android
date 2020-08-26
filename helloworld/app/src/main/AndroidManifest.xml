@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ew.helloworld">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".ui.Relativelayout"></activity>
+        <activity android:name=".ui.Linearlayout" />
+        <activity
+            android:name=".object.ValueAnimActivity"
+            android:label="ValueAnimActivity" />
+        <activity
+            android:name=".object.AnimatorActivity"
+            android:label="AnimatorActivity" />
+        <activity
+            android:name=".object.ObjectAnimActivity"
+            android:label="ObjectAnimActivity" />
+        <activity
+            android:name=".broadcast.BroadActivity2"
+            android:label="BroadActivity2" />
+        <activity
+            android:name=".broadcast.BroadActivity1"
+            android:label="BroadActivity1" />
+        <activity
+            android:name=".datastorage.SdFileActivity"
+            android:label="SDFileActivity" />
+        <activity
+            android:name=".datastorage.FileActivity"
+            android:label="FileActivity" />
+        <activity
+            android:name=".datastorage.SharedPreferencesActivity"
+            android:label="SharedPreferencesActivity" />
+        <activity
+            android:name=".datastorage.DataStorageActivity"
+            android:label="DataStorageActivity" />
+        <activity
+            android:name=".HandlerActivity"
+            android:label="HandlerActivity" />
+        <activity
+            android:name=".EventActivity"
+            android:label="EventActivity" />
+        <activity
+            android:name=".fragment.ContainerActivity"
+            android:label="Fragment" />
+        <activity
+            android:name=".jump.CActivity"
+            android:label="C"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".jump.BActivity"
+            android:label="B"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.example.jump.BActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".jump.AActivity"
+            android:label="A"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.TestActivity"
+            android:label="Activity" />
+        <activity
+            android:name=".ui.LifeCycleActivity"
+            android:label="LifeCycle"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".ui.PopupWindowActivity"
+            android:label="Popwindow" />
+        <activity
+            android:name=".ui.CustomDialogActivity"
+            android:label="CustomDialog" />
+        <activity
+            android:name=".ui.ProgressActivity"
+            android:label="Progress" />
+        <activity
+            android:name=".ui.UIActivity"
+            android:label="UI" />
+        <activity
+            android:name=".ui.DialogActivity"
+            android:label="Dialog" />
+        <activity
+            android:name=".ui.ToastActivity"
+            android:label="Toast" />
+        <activity
+            android:name=".ui.WebViewActivity"
+            android:label="WebView" />
+        <activity
+            android:name=".recycleview.PuRecyclerViewActivity"
+            android:label="PuRecycleview" />
+        <activity
+            android:name=".recycleview.GridRecyclerViewActivity"
+            android:label="GridRecycleView" />
+        <activity
+            android:name=".recycleview.HorRecyclerViewActivity"
+            android:label="HorRecyclerView" />
+        <activity
+            android:name=".recycleview.LinearRecyclerViewActivity"
+            android:label="LinearRecyclerView" />
+        <activity
+            android:name=".recycleview.RecyclerViewActivity"
+            android:label="RecyclerView" />
+        <activity
+            android:name=".ui.HorizontalScrollViewActivity"
+            android:label="HorizontalScrollView" />
+        <activity
+            android:name=".ui.ScrollViewActivity"
+            android:label="ScrollView" />
+        <activity
+            android:name=".gridview.GridViewActivity"
+            android:label="GridView" />
+        <activity
+            android:name=".listview.ListViewActivity"
+            android:label="ListView" />
+        <activity
+            android:name=".ui.CheckBoxActivity"
+            android:label="CheckBox" />
+        <activity
+            android:name=".ui.ImageViewActivity"
+            android:label="ImageView" />
+        <activity
+            android:name=".ui.RadioButtonActivity"
+            android:label="RadioButton" />
+        <activity
+            android:name=".ui.EmptyActivity"
+            android:label="Empty" />
+        <activity
+            android:name=".ui.EditTextActivity"
+            android:label="EditText" />
+        <activity
+            android:name=".ui.ButtonActivity"
+            android:label="Button" />
+        <activity
+            android:name=".ui.TextViewActivity"
+            android:label="TextView" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

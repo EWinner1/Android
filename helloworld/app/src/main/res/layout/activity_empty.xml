@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sample_ev1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon256"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="16sp 256像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon200"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="200像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon180"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="180像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon160"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="160像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon140"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="140像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon120"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="120像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon100"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="100像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon80"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="80像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon60"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="60像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon40"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="40像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sample_ev11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon20"
+        android:drawablePadding="20dp"
+        android:gravity="center"
+        android:text="20像素"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</LinearLayout>

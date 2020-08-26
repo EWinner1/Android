@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">//默认为水平布局
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="#00FFFF"
+        android:padding="20dp">//paddingleft paddingright padddingtop paddingbotton
+
+        <View
+            android:id="@+id/ll_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="#BF3EFF"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#050505" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="#FF0000">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFC125"
+            android:layout_weight="1"/>//权重
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FF00FF"
+            android:layout_weight="2"/>//权重，宽度可以预留，此处为0
+        >
+    </LinearLayout>
+</LinearLayout>

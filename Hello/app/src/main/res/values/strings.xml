@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="pack1">Pack1</string>
+    <string name="pack2">Pack2</string>
+    <string name="pack3">Pack3</string>
+    <string name="pack4">Pack4</string>
+    <string name="pack5">Pack5</string>
+    <string name="DEFAULT">default</string>
+</resources>
