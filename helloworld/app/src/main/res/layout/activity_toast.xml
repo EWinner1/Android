@@ -29,16 +29,4 @@
         android:layout_height="wrap_content"
         android:text="自定义" />
 
-    <Button
-        android:id="@+id/btn_Toast_5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="默认" />
-
-    <Button
-        android:id="@+id/btn_Toast_6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="默认" />
-
 </LinearLayout>

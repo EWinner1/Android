@@ -16,7 +16,7 @@ import com.ew.helloworld.util.ToastUtil;
 
 public class ToastActivity extends AppCompatActivity {
 
-    private Button mBtnToast1, mBtnToast2, mBtnToast3, mBtnToast4, mBtnToast5, mBtnToast6;
+    private Button mBtnToast1, mBtnToast2, mBtnToast3, mBtnToast4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,15 +26,11 @@ public class ToastActivity extends AppCompatActivity {
         mBtnToast2 = findViewById(R.id.btn_Toast_2);
         mBtnToast3 = findViewById(R.id.btn_Toast_3);
         mBtnToast4 = findViewById(R.id.btn_Toast_4);
-        mBtnToast5 = findViewById(R.id.btn_Toast_5);
-        mBtnToast6 = findViewById(R.id.btn_Toast_6);
         OnClick onClick = new OnClick();
         mBtnToast1.setOnClickListener(onClick);
         mBtnToast2.setOnClickListener(onClick);
         mBtnToast3.setOnClickListener(onClick);
         mBtnToast4.setOnClickListener(onClick);
-        mBtnToast5.setOnClickListener(onClick);
-        mBtnToast6.setOnClickListener(onClick);
     }
 
     class OnClick implements View.OnClickListener {
@@ -63,10 +59,6 @@ public class ToastActivity extends AppCompatActivity {
                     break;
                 case R.id.btn_Toast_4:
                     ToastUtil.showMsg(getApplicationContext(), "封装类");//此方法存在问题
-                    break;
-                case R.id.btn_Toast_5:
-                    break;
-                case R.id.btn_Toast_6:
                     break;
             }
         }

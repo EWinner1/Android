@@ -48,7 +48,7 @@
         android:text="速度/优先级比较"
         android:textAllCaps="false" />
 
-    <com.example.textview.widget.MyButton
+    <com.ew.helloworld.widget.MyButton
         android:id="@+id/btn_My"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

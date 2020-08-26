@@ -75,7 +75,7 @@ public class UIActivity extends AppCompatActivity {
             Intent intent = null;
             switch (v.getId()) {
                 case R.id.btn_linearlayout:
-                    intent = new Intent(UIActivity.this, LinearLayout.class);
+                    intent = new Intent(UIActivity.this, Linearlayout.class);
                     break;
                 case R.id.btn_relativelayout:
                     intent = new Intent(UIActivity.this, Relativelayout.class);
