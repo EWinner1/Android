@@ -1,6 +1,6 @@
 # Android
 ## bilibili天哥在奔跑视频+修改+other  
-textview及其以后的课程全部集成在TextView中  
+课程全部集成在HelloWorld中  
 关于视频中的代码跳转链接  
 [Java代码文件夹](https://github.com/EWinner1/Android/tree/master/helloworld/app/src/main/java/com/ew/helloworld "Java链接")，
 [res文件夹](https://github.com/EWinner1/Android/tree/master/helloworld/app/src/main/res "包含drawable等")，
