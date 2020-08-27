@@ -6,4 +6,11 @@
     <string name="pack4">Pack4</string>
     <string name="pack5">Pack5</string>
     <string name="DEFAULT">default</string>
+    <string name="inputname">请输入姓名</string>
+    <string name="inputnum">请输入学号</string>
+    <string name="inputphone">请输入手机号</string>
+    <string name="name">姓名</string>
+    <string name="num">学号</string>
+    <string name="phone">手机号</string>
+    <string name="remarks">备注</string>
 </resources>
