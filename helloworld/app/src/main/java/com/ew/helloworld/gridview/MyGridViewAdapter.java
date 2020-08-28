@@ -45,7 +45,6 @@ public class MyGridViewAdapter extends BaseAdapter {
             convertView.setTag(holder);
             holder.imageView = convertView.findViewById(R.id.iv_grid);
             holder.textView = convertView.findViewById(R.id.tv_title2);
-            ;
         } else {
             holder = (ViewHolder) convertView.getTag();
         }

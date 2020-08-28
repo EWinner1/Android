@@ -17,7 +17,7 @@
             android:checked="true"
             android:text="男"
             android:textColor="#5347FF"
-            android:textSize="18sp"></RadioButton>
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/rb_2"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:text="女"
             android:textColor="#5347FF"
-            android:textSize="18sp"></RadioButton>
+            android:textSize="18sp" />
     </RadioGroup>
 
     <RadioGroup
@@ -46,18 +46,26 @@
             android:gravity="center"
             android:text="男"
             android:textColor="#000000"
-            android:textSize="18sp"></RadioButton>
+            android:textSize="18sp" />
 
         <RadioButton
             android:id="@+id/rb_4"
             android:layout_width="60dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:background="@drawable/selector1"
             android:button="@null"
             android:gravity="center"
             android:text="女"
             android:textColor="#000000"
-            android:textSize="18sp"></RadioButton>
+            android:textSize="18sp" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/sent"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg_2"
+        android:text="提交" />
+
 </RelativeLayout>

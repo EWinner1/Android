@@ -17,7 +17,7 @@ public class Pack1Adapter extends RecyclerView.Adapter<Pack1Adapter.GridViewHold
     private Context mContext;
     private OnItemClickListener mListener;
     private String[] ButtonText = new String[]{
-            "Touch", "FrameLayout", "TableLayout"//输入字符串新建控件
+            "Touch", "FrameLayout", "TableLayout","GridView"//输入字符串新建控件
     };
 
     public Pack1Adapter(Context context, OnItemClickListener listener) {
@@ -50,6 +50,10 @@ public class Pack1Adapter extends RecyclerView.Adapter<Pack1Adapter.GridViewHold
                         break;
                     case 2:
                         intent= new Intent(mContext, TableLayoutActivity.class);
+                        mContext.startActivity(intent);
+                        break;
+                    case 3:
+                        intent= new Intent(mContext, GridViewActivity.class);
                         mContext.startActivity(intent);
                         break;
                 }
