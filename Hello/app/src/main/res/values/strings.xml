@@ -13,4 +13,16 @@
     <string name="num">学号</string>
     <string name="phone">手机号</string>
     <string name="remarks">备注</string>
+    <string name="question">一天，张三的店里来了一个顾客，挑了25元的货，顾客拿出100元假币，张三没有零钱找不开，就到隔壁李四的店里把这100元换成零钱，回来给顾客找了75元钱，过了一会儿，李四来找张三，说刚才的100元是假币，张三马上给李四换了张真钱，问张三赔了多少钱？</string>
+    <string name="answerA">A:100</string>
+    <string name="answerB">B:125</string>
+    <string name="answerC">C:175</string>
+    <string name="answerD">D:200</string>
+    <string name="commit">提交</string>
+    <string name="resolution"><u>查看解析</u></string>
+    <string name="DataPicker">日期选择器</string>
+    <string name="TimePicker">时间选择器</string>
+    <string name="Chronometer">计时器</string>
+    <string name="startTime">开始计时</string>
+    <string name="stopTime">停止计时</string>
 </resources>

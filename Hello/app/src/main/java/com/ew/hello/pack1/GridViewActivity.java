@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.Toast;
 
+import com.ew.hello.IClass.ToastUtil;
 import com.ew.hello.R;
 
 public class GridViewActivity extends AppCompatActivity {
@@ -23,9 +24,7 @@ public class GridViewActivity extends AppCompatActivity {
         mGv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(GridViewActivity.this,
-                        "位置:"+(i+1)+",id"+l+"."
-                        ,Toast.LENGTH_LONG).show();
+                ToastUtil.showMsg(GridViewActivity.this, "位置:"+(i+1)+",id"+l+".",0);
             }
         });
     }
