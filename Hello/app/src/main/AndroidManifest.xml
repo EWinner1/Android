@@ -9,15 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        <activity android:name=".pack1.TimeActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
-        <activity android:name=".pack1.CheckBoxActivity" />
-        <activity android:name=".pack1.RadioButtonActivity" />
-        <activity android:name=".pack1.GridViewActivity" />
-        <activity android:name=".pack1.TableLayoutActivity" />
-        <activity android:name=".pack1.FrameLayoutActivity" />
-        <activity android:name=".pack1.Pack1Activity" />
-        <activity android:name=".pack1.TouchActivity" />
+        <activity
+            android:name=".pack1.TimeActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:label="Time"/>
+        <activity android:name=".pack1.CheckBoxActivity"
+            android:label="CheckBox"/>
+        <activity android:name=".pack1.RadioButtonActivity"
+            android:label="RadioButton"/>
+        <activity android:name=".pack1.GridViewActivity"
+            android:label="GridView"/>
+        <activity android:name=".pack1.TableLayoutActivity"
+            android:label="TableLayout"/>
+        <activity android:name=".pack1.FrameLayoutActivity"
+            android:label="FrameLayout"/>
+        <activity android:name=".pack1.Pack1Activity"
+            android:label="Pack1"/>
+        <activity android:name=".pack1.TouchActivity"
+            android:label="Touch"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
