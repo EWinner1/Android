@@ -59,7 +59,7 @@ public class StaggeredGridAdapter extends RecyclerView.Adapter<StaggeredGridAdap
         void onClick(int pos);
     }
 
-    class GridViewHolder extends RecyclerView.ViewHolder {
+    static class GridViewHolder extends RecyclerView.ViewHolder {
 
         private ImageView imageView;
 

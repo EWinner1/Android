@@ -15,6 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.ew.helloworld.R;
 import com.ew.helloworld.util.ToastUtil;
 
+import java.util.Objects;
+
 public class AActivity extends AppCompatActivity {
 
     private Button mBtnJump2B;
@@ -82,7 +84,8 @@ public class AActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 0) {
-            Toast.makeText(AActivity.this, data.getExtras().getString("message"), Toast.LENGTH_LONG).show();
+            assert data != null;
+            Toast.makeText(AActivity.this, Objects.requireNonNull(data.getExtras()).getString("message"), Toast.LENGTH_LONG).show();
         } else {
             ToastUtil.showMsg(AActivity.this, "lost");
         }

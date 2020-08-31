@@ -39,7 +39,8 @@ public class TimeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         mTv1 = findViewById(R.id.dp_tv1);
         mTv2 = findViewById(R.id.dp_tv2);
@@ -161,7 +162,7 @@ public class TimeActivity extends AppCompatActivity {
     }
 
     private void show(int i, int i2, TextView textView) {
-        String s = i + "时" + (i2 + 1) + "分";
+        String s = i + "时" + i2 + "分";
         textView.setText(s);
     }
 }

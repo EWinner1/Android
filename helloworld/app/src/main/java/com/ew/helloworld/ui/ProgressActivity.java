@@ -17,6 +17,8 @@ import com.ew.helloworld.R;
 public class ProgressActivity extends AppCompatActivity {
 
     private ProgressBar mPb3;
+    private Button mBtnStart;
+    private Button mBtnProgressDialog1, mBtnProgressDialog2;
     Runnable runnable = new Runnable() {
         @Override
         public void run() {
@@ -35,8 +37,6 @@ public class ProgressActivity extends AppCompatActivity {
             }
         }
     };
-    private Button mBtnStart;
-    private Button mBtnProgressDialog1, mBtnProgressDialog2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

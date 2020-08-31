@@ -6,6 +6,7 @@
     <string name="pack4">Pack4</string>
     <string name="pack5">Pack5</string>
     <string name="DEFAULT">default</string>
+    <string name="no">99</string>
     <string name="inputname">请输入姓名</string>
     <string name="inputnum">请输入学号</string>
     <string name="inputphone">请输入手机号</string>
@@ -25,4 +26,5 @@
     <string name="Chronometer">计时器</string>
     <string name="startTime">开始计时</string>
     <string name="stopTime">停止计时</string>
+    <string name="transparency">透明度</string>
 </resources>

@@ -38,6 +38,7 @@ public class BActivity extends AppCompatActivity {
             }
         });
         Bundle bundle = getIntent().getExtras();
+        assert bundle != null;
         String name = bundle.getString("name");
         int age = bundle.getInt("age");
         mTvshow.setText(name + "," + age);

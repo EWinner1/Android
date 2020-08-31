@@ -68,19 +68,19 @@ public class CheckBoxActivity extends AppCompatActivity {
         mCommit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s = null;
-                if (mCb1.isChecked()){
-                    s+="姓名："+mEt1.getText().toString()+";";
+                String s = "";
+                if (mCb1.isChecked()) {
+                    s += "姓名：" + mEt1.getText().toString() + ";";
                 }
-                if (mCb2.isChecked()){
-                    s+="手机号："+mEt2.getText().toString()+";";
+                if (mCb2.isChecked()) {
+                    s += "手机号：" + mEt2.getText().toString() + ";";
                 }
-                if (mCb3.isChecked()){
-                    s+="学号："+mEt3.getText().toString()+";";
+                if (mCb3.isChecked()) {
+                    s += "学号：" + mEt3.getText().toString() + ";";
                 }
-                if (s != null)
-                    s = "";
-                    ToastUtil.showMsg(CheckBoxActivity.this,s,1);
+                if (s.isEmpty())
+                    s = "未输入字符";
+                ToastUtil.showMsg(CheckBoxActivity.this, s, 1);
             }
         });
     }

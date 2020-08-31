@@ -113,10 +113,8 @@ public class EventActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        switch (event.getAction()) {
-            case MotionEvent.ACTION_DOWN:
-                Log.d("Activity", "----OnTouchEventActivity----");
-                break;
+        if (event.getAction() == MotionEvent.ACTION_DOWN) {
+            Log.d("Activity", "----OnTouchEventActivity----");
         }
         return false;
     }

@@ -15,6 +15,8 @@ import androidx.fragment.app.Fragment;
 
 import com.ew.helloworld.R;
 
+import java.util.Objects;
+
 public class AFragment extends Fragment {
 
     private TextView mTvTitle;
@@ -52,6 +54,7 @@ public class AFragment extends Fragment {
                 if (bFragment == null) {
                     bFragment = new BFragment();
                 }
+                assert getFragmentManager() != null;
                 Fragment fragment = getFragmentManager().findFragmentByTag("a");
                 if (fragment != null) {
                     getFragmentManager().beginTransaction().hide(fragment).add(R.id.fl_container, bFragment).addToBackStack(null).commitAllowingStateLoss();
@@ -72,7 +75,7 @@ public class AFragment extends Fragment {
         mBtnMessage1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((ContainerActivity) getActivity()).setData("我通过方法一传过来了！");//跨activity调用，不推荐
+                ((ContainerActivity) Objects.requireNonNull(getActivity())).setData("我通过方法一传过来了！");//跨activity调用，不推荐
             }
         });
         mBtnMessage2.setOnClickListener(new View.OnClickListener() {

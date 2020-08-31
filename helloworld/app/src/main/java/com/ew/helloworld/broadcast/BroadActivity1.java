@@ -50,10 +50,8 @@ public class BroadActivity1 extends AppCompatActivity {
     private class MyBroadcast extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
-            switch (intent.getAction()) {
-                case "update":
-                    mTvTest.setText(mTv9.getText().toString());
-                    break;
+            if ("update".equals(intent.getAction())) {
+                mTvTest.setText(mTv9.getText().toString());
             }
         }
     }

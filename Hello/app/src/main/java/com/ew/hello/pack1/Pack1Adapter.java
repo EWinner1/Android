@@ -17,7 +17,8 @@ public class Pack1Adapter extends RecyclerView.Adapter<Pack1Adapter.GridViewHold
     private Context mContext;
     private OnItemClickListener mListener;
     private String[] ButtonText = new String[]{
-            "Touch", "FrameLayout", "TableLayout","GridView","RadioButton","CheckBox","DatePicker"//输入字符串新建控件
+            "Touch", "FrameLayout", "TableLayout", "GridView", "RadioButton", "CheckBox", "DatePicker",
+            "ProgressBar", "SeekBar"//输入字符串新建控件
     };
 
     public Pack1Adapter(Context context, OnItemClickListener listener) {
@@ -61,11 +62,19 @@ public class Pack1Adapter extends RecyclerView.Adapter<Pack1Adapter.GridViewHold
                         mContext.startActivity(intent);
                         break;
                     case 5:
-                        intent= new Intent(mContext, CheckBoxActivity.class);
+                        intent = new Intent(mContext, CheckBoxActivity.class);
                         mContext.startActivity(intent);
                         break;
                     case 6:
-                        intent= new Intent(mContext, TimeActivity.class);
+                        intent = new Intent(mContext, TimeActivity.class);
+                        mContext.startActivity(intent);
+                        break;
+                    case 7:
+                        intent = new Intent(mContext, ProgressBarActivity.class);
+                        mContext.startActivity(intent);
+                        break;
+                    case 8:
+                        intent = new Intent(mContext, SeekBarActivity.class);
                         mContext.startActivity(intent);
                         break;
                 }

@@ -55,7 +55,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.GridViewHolder
         void onClick(int pos);
     }
 
-    class GridViewHolder extends RecyclerView.ViewHolder {
+    static class GridViewHolder extends RecyclerView.ViewHolder {
 
         private TextView textView;
 

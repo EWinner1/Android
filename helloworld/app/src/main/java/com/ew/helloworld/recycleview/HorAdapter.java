@@ -55,7 +55,7 @@ public class HorAdapter extends RecyclerView.Adapter<HorAdapter.HorViewHolder> {
         void onClick(int pos);
     }
 
-    class HorViewHolder extends RecyclerView.ViewHolder {
+    static class HorViewHolder extends RecyclerView.ViewHolder {
 
         private TextView textView;
 
