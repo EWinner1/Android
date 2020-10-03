@@ -18,7 +18,8 @@ public class Pack1Adapter extends RecyclerView.Adapter<Pack1Adapter.GridViewHold
     private OnItemClickListener mListener;
     private String[] ButtonText = new String[]{
             "Touch", "FrameLayout", "TableLayout", "GridView", "RadioButton", "CheckBox", "DatePicker",
-            "ProgressBar", "SeekBar"//输入字符串新建控件
+            "ProgressBar", "SeekBar", "Kotlin", "Lambda", "Intent", "UICostom", "ListVIew", "Fruit",
+            "ReFruit","9patch","FragmentTest"//输入字符串新建控件
     };
 
     public Pack1Adapter(Context context, OnItemClickListener listener) {
@@ -74,8 +75,34 @@ public class Pack1Adapter extends RecyclerView.Adapter<Pack1Adapter.GridViewHold
                         mContext.startActivity(intent);
                         break;
                     case 8:
-                        intent = new Intent(mContext, SeekBarActivity.class);
-                        mContext.startActivity(intent);
+                        mContext.startActivity(new Intent(mContext, SeekBarActivity.class));
+                        break;
+                    case 9:
+                        mContext.startActivity(new Intent(mContext, KotlinActivity.class));
+                        break;
+                    case 10:
+                        mContext.startActivity(new Intent(mContext, LambdaActivity.class));
+                        break;
+                    case 11:
+                        mContext.startActivity(new Intent(mContext, IntentActivity.class));
+                        break;
+                    case 12:
+                        mContext.startActivity(new Intent(mContext, UICostomActivity.class));
+                        break;
+                    case 13:
+                        mContext.startActivity(new Intent(mContext, ListViewActivity.class));
+                        break;
+                    case 14:
+                        mContext.startActivity(new Intent(mContext, FruitActivity.class));
+                        break;
+                    case 15:
+                        mContext.startActivity(new Intent(mContext, ReFruitActivity.class));
+                        break;
+                    case 16:
+                        mContext.startActivity(new Intent(mContext, PatchActivity.class));
+                        break;
+                    case 17:
+                        mContext.startActivity(new Intent(mContext,FragmentTestActivity.class));
                         break;
                 }
             }

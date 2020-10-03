@@ -27,4 +27,16 @@
     <string name="startTime">开始计时</string>
     <string name="stopTime">停止计时</string>
     <string name="transparency">透明度</string>
+    <string name="age">年龄</string>
+    <string name="send">Send</string>
+    <string name="add">添加</string>
+    <string name="remove">删除</string>
+    <string name="destroy">销毁</string>
+    <string name="jump_to_java">Jump to Java</string>
+    <string name="jumpinternetexplore">Internet Explore</string>
+    <string name="telphone">Telphone</string>
+    <string name="back">后退</string>
+    <string name="menu">菜单</string>
+    <string name="longteststring">26666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666</string>
+    <string name="change">Change</string>
 </resources>

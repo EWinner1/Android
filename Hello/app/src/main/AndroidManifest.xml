@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.ew.hello">
 
     <application
@@ -10,7 +11,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        <activity android:name=".pack1.SeekBarActivity"></activity>
+        <activity android:name=".pack1.FragmentTestActivity"></activity>
+        <activity android:name=".pack1.PatchActivity" />
+        <activity android:name=".pack1.ReFruitActivity" />
+        <activity
+            android:name=".pack1.FruitActivity"
+            android:label="Fruit" />
+        <activity
+            android:name=".pack1.ListViewActivity"
+            android:label="ListView" />
+        <activity
+            android:name=".pack1.UICostomActivity"
+            android:label="UI Costom" />
+        <activity
+            android:name=".pack1.IntentActivity"
+            android:label="Intent" />
+        <activity
+            android:name=".pack1.LambdaActivity"
+            android:label="Lambda">
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pack1.KotlinActivity" />
+        <activity android:name=".pack1.SeekBarActivity" />
         <activity android:name=".pack1.ProgressBarActivity" />
         <activity
             android:name=".pack1.TimeActivity"
@@ -37,7 +65,9 @@
         <activity
             android:name=".pack1.TouchActivity"
             android:label="Touch" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
