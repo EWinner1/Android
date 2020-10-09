@@ -19,7 +19,7 @@ public class Pack1Adapter extends RecyclerView.Adapter<Pack1Adapter.GridViewHold
     private String[] ButtonText = new String[]{
             "Touch", "FrameLayout", "TableLayout", "GridView", "RadioButton", "CheckBox", "DatePicker",
             "ProgressBar", "SeekBar", "Kotlin", "Lambda", "Intent", "UICostom", "ListVIew", "Fruit",
-            "ReFruit","9patch","FragmentTest"//输入字符串新建控件
+            "ReFruit","9patch","Fragment","News","Broadcast"//输入字符串新建控件
     };
 
     public Pack1Adapter(Context context, OnItemClickListener listener) {
@@ -103,6 +103,12 @@ public class Pack1Adapter extends RecyclerView.Adapter<Pack1Adapter.GridViewHold
                         break;
                     case 17:
                         mContext.startActivity(new Intent(mContext,FragmentTestActivity.class));
+                        break;
+                    case 18:
+                        mContext.startActivity(new Intent(mContext,NewsActivity.class));
+                        break;
+                    case 19:
+                        mContext.startActivity(new Intent(mContext,BroadCastActivity.class));
                         break;
                 }
             }
